@@ -1,0 +1,221 @@
+/* ========== GENERAL LAYOUT ========== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #e3f2fd, #f3e5f5);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+/* ========== CONTAINER ========== */
+div {
+  text-align: center;
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #1976d2;
+}
+
+h3 {
+  margin: 20px 0 10px;
+  color: #444;
+}
+
+h2 {
+  color: #512da8;
+  margin-top: 20px;
+}
+
+/* ========== UNIT BUTTONS ========== */
+.unit {
+  background-color: #e0e0e000;
+  border: none;
+  font-weight: 700;
+  color: #333;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+
+.unit:focus {
+  border: none;
+  outline: none;
+}
+
+
+.unit:hover {
+  background-color: #bbdefb00;
+  color: #1565c0;
+  transform: scale(1.05);
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
+
+.unit.selected {
+  color: #1565c0;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+/* ========== INPUTS & SELECTS ========== */
+input[type="number"],
+select {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+input[type="number"]:focus,
+select:focus {
+  border-color: #1976d2;
+  box-shadow: 0 0 5px rgba(25, 118, 210, 0.4);
+}
+
+/* ========== BUTTONS ========== */
+button {
+  background-color: #1976d2;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 15px 5px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #1565c0;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 600px) {
+  .unit {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  input,
+  select {
+    width: 80%;
+  }
+
+  button {
+    width: 80%;
+  }
+}
+
+
+select {
+  appearance: none; /* Removes default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 10px 40px 10px 15px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+/* Add a custom arrow using a background image (CSS only) */
+select {
+  background-image: linear-gradient(45deg, transparent 50%, #1976d2 50%),
+                    linear-gradient(135deg, #1976d2 50%, transparent 50%);
+  background-position: right 15px top 50%, right 10px top 50%;
+  background-size: 6px 6px;
+  background-repeat: no-repeat;
+}
+
+/* Hover effect */
+select:hover {
+  border-color: #1976d2;
+  box-shadow: 0 0 8px rgba(25, 118, 210, 0.2);
+}
+
+/* Focus state */
+select:focus {
+  border-color: #1976d2;
+  box-shadow: 0 0 6px rgba(25, 118, 210, 0.4);
+}
+
+/* Disabled style */
+select:disabled {
+  background-color: #f5f5f5;
+  border-color: #ddd;
+  color: #888;
+  cursor: not-allowed;
+}
+
+
+option {
+  background: white;
+  color: #333;
+  font-weight: 500;
+}
+
+option:hover {
+  background: #e3f2fd;
+}
+
+
+
+input[type="number"] {
+  width: 120px;
+  padding: 10px 14px;
+  margin: 5px;
+  font-size: 1.2rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+input[type="number"]:focus {
+  border-color: #007bff;
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
+}
+
+
+/* Removes arrows from number input */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}

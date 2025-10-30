@@ -1,0 +1,36 @@
+{
+  "units": [
+    { "system": "SI", "unit": "Kilometer", "symbol": "km", "conversion": 1000 },
+    { "system": "SI", "unit": "Hectometer", "symbol": "hm", "conversion": 100 },
+    { "system": "SI", "unit": "Decameter", "symbol": "dam", "conversion": 10 },
+    { "system": "SI", "unit": "Meter", "symbol": "m", "conversion": 1 },
+    { "system": "SI", "unit": "Decimeter", "symbol": "dm", "conversion": 0.1 },
+    { "system": "SI", "unit": "Centimeter", "symbol": "cm", "conversion": 0.01 },
+    { "system": "SI", "unit": "Millimeter", "symbol": "mm", "conversion": 0.001 },
+    { "system": "SI", "unit": "Micrometer", "symbol": "µm", "conversion": 0.000001 },
+    { "system": "SI", "unit": "Nanometer", "symbol": "nm", "conversion": 0.000000001 },
+    { "system": "SI", "unit": "Picometer", "symbol": "pm", "conversion": 0.000000000001 },
+    { "system": "SI", "unit": "Femtometer", "symbol": "fm", "conversion": 0.000000000000001 },
+    { "system": "SI", "unit": "Attometer", "symbol": "am", "conversion": 0.000000000000000001 },
+
+    { "system": "Imperial", "unit": "Mile", "symbol": "mi", "conversion": 1609.344 },
+    { "system": "Imperial", "unit": "Furlong", "symbol": "fur", "conversion": 201.168 },
+    { "system": "Imperial", "unit": "Chain", "symbol": "ch", "conversion": 20.1168 },
+    { "system": "Imperial", "unit": "Rod", "symbol": "rd", "conversion": 5.0292 },
+    { "system": "Imperial", "unit": "Yard", "symbol": "yd", "conversion": 0.9144 },
+    { "system": "Imperial", "unit": "Foot", "symbol": "ft", "conversion": 0.3048 },
+    { "system": "Imperial", "unit": "Inch", "symbol": "in", "conversion": 0.0254 },
+    { "system": "Imperial", "unit": "Mil", "symbol": "mil", "conversion": 0.0000254 },
+
+    { "system": "Nautical", "unit": "Nautical mile", "symbol": "nmi", "conversion": 1852 },
+    { "system": "Nautical", "unit": "Cable", "symbol": "-", "conversion": 185.2 },
+    { "system": "Nautical", "unit": "Fathom", "symbol": "ftm", "conversion": 1.8288 },
+    { "system": "Nautical", "unit": "Nautical foot", "symbol": "ft", "conversion": 0.3048 },
+
+    { "system": "Astronomical", "unit": "Astronomical unit", "symbol": "AU", "conversion": 149597870700 },
+    { "system": "Astronomical", "unit": "Light year", "symbol": "ly", "conversion": 9460700000000000 },
+    { "system": "Astronomical", "unit": "Parsec", "symbol": "pc", "conversion": 30857000000000000 },
+    { "system": "Astronomical", "unit": "Kiloparsec", "symbol": "kpc", "conversion": 30857000000000000000 },
+    { "system": "Astronomical", "unit": "Megaparsec", "symbol": "Mpc", "conversion": 30857000000000000000000 }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "units": [
+    { "system": "SI", "unit": "Celsius", "symbol": "°C", "conversion": 1, "addition": 273.15 },
+    { "system": "SI", "unit": "Kelvin", "symbol": "K", "conversion": 1, "addition": 0 },
+    { "system": "Imperial", "unit": "Fahrenheit", "symbol": "°F", "conversion": 0.5555555555, "addition": 255.3722222222222 },
+    { "system": "Imperial", "unit": "Rankine", "symbol": "°R", "conversion": 0.5555555555, "addition": 0 },
+
+    { "system": "Other", "unit": "Delisle", "symbol": "°De", "conversion": -0.6666666666, "addition": 373.15 },
+    { "system": "Other", "unit": "Newton", "symbol": "°N", "conversion": 3.03030303030303, "addition": 273.15 },
+    { "system": "Other", "unit": "Réaumur", "symbol": "°Ré", "conversion": 1.25, "addition": 273.15 },
+    { "system": "Other", "unit": "Rømer", "symbol": "°Rø", "conversion": 1.9047619, "addition": 273.15 }
+  ]
+}

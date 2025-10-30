@@ -1,0 +1,23 @@
+{
+  "units": [
+    { "system": "SI", "unit": "Milligram", "symbol": "mg", "conversion": 0.000001 },
+    { "system": "SI", "unit": "Centigram", "symbol": "cg", "conversion": 0.00001 },
+    { "system": "SI", "unit": "Decigram", "symbol": "dg", "conversion": 0.0001 },
+    { "system": "SI", "unit": "Gram", "symbol": "g", "conversion": 0.001 },
+    { "system": "SI", "unit": "Dekagram", "symbol": "dag", "conversion": 0.01 },
+    { "system": "SI", "unit": "Hectogram", "symbol": "hg", "conversion": 0.1 },
+    { "system": "SI", "unit": "Kilogram", "symbol": "kg", "conversion": 1 },
+    { "system": "SI", "unit": "Metric Ton", "symbol": "t", "conversion": 1000 },
+
+    { "system": "Imperial", "unit": "Grain", "symbol": "gr", "conversion": 0.00006479891 },
+    { "system": "Imperial", "unit": "Dram", "symbol": "dr", "conversion": 0.0017718451953125 },
+    { "system": "Imperial", "unit": "Ounce", "symbol": "oz", "conversion": 0.028349523125 },
+    { "system": "Imperial", "unit": "Pound", "symbol": "lb", "conversion": 0.45359237 },
+    { "system": "Imperial", "unit": "Stone", "symbol": "st", "conversion": 6.35029318 },
+    { "system": "Imperial", "unit": "Quarter (UK)", "symbol": "qr", "conversion": 12.70058636 },
+    { "system": "Imperial", "unit": "Hundredweight (US)", "symbol": "cwt", "conversion": 45.359237 },
+    { "system": "Imperial", "unit": "Hundredweight (UK)", "symbol": "cwt", "conversion": 50.80234544 },
+    { "system": "Imperial", "unit": "Short Ton (US)", "symbol": "ton", "conversion": 907.18474 },
+    { "system": "Imperial", "unit": "Long Ton (UK)", "symbol": "ton", "conversion": 1016.0469088 }
+  ]
+}
